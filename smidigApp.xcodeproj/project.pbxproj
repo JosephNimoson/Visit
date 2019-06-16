@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06D67E90CA8C39A00842DAB5 /* Pods_smidigAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE30E62AB447072A518A0779 /* Pods_smidigAppUITests.framework */; };
+		2D239B7C22AEE55600291018 /* NavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D239B7B22AEE55600291018 /* NavController.swift */; };
 		2D4179382292BB7E0099599E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4179372292BB7E0099599E /* AppDelegate.swift */; };
 		2D41793A2292BB7E0099599E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4179392292BB7E0099599E /* ViewController.swift */; };
 		2D41793D2292BB7E0099599E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D41793B2292BB7E0099599E /* Main.storyboard */; };
@@ -14,6 +16,16 @@
 		2D4179422292BB7F0099599E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D4179402292BB7F0099599E /* LaunchScreen.storyboard */; };
 		2D41794D2292BB7F0099599E /* smidigAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D41794C2292BB7F0099599E /* smidigAppTests.swift */; };
 		2D4179582292BB7F0099599E /* smidigAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4179572292BB7F0099599E /* smidigAppUITests.swift */; };
+		2D7346CA22B3869F0046B24F /* HyttaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7346C922B3869F0046B24F /* HyttaViewController.swift */; };
+		2D7346CC22B386C20046B24F /* FjelletViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7346CB22B386C20046B24F /* FjelletViewController.swift */; };
+		2D7346CE22B388890046B24F /* HVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7346CD22B388890046B24F /* HVideoViewController.swift */; };
+		2D7346D022B388970046B24F /* SVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7346CF22B388970046B24F /* SVideoViewController.swift */; };
+		2D83D1EB22B11D6D00E816A5 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D83D1EA22B11D6D00E816A5 /* VideoViewController.swift */; };
+		2DD25CFE22B12BEC005E07C5 /* SkogenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD25CFD22B12BEC005E07C5 /* SkogenViewController.swift */; };
+		2DD25D0122B2462B005E07C5 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD25CFF22B2462A005E07C5 /* MenuViewController.swift */; };
+		2DD25D0222B2462B005E07C5 /* SlideInTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD25D0022B2462A005E07C5 /* SlideInTransition.swift */; };
+		A6A4D130E062B84393CDD472 /* Pods_smidigApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B79CDEA2A530B6E56CE0CAC /* Pods_smidigApp.framework */; };
+		D0EB2381367ADD6E489E8D5E /* Pods_smidigAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BC15A8EB1F7DC7B5FC4F79D /* Pods_smidigAppTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +46,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D0C0066C2A21CBDFA53DE59 /* Pods-smidigApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-smidigApp.release.xcconfig"; path = "Target Support Files/Pods-smidigApp/Pods-smidigApp.release.xcconfig"; sourceTree = "<group>"; };
+		2D239B7B22AEE55600291018 /* NavController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavController.swift; sourceTree = "<group>"; };
 		2D4179342292BB7E0099599E /* smidigApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = smidigApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D4179372292BB7E0099599E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2D4179392292BB7E0099599E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +61,22 @@
 		2D4179532292BB7F0099599E /* smidigAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = smidigAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D4179572292BB7F0099599E /* smidigAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = smidigAppUITests.swift; sourceTree = "<group>"; };
 		2D4179592292BB7F0099599E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D7346C922B3869F0046B24F /* HyttaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HyttaViewController.swift; sourceTree = "<group>"; };
+		2D7346CB22B386C20046B24F /* FjelletViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FjelletViewController.swift; sourceTree = "<group>"; };
+		2D7346CD22B388890046B24F /* HVideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HVideoViewController.swift; sourceTree = "<group>"; };
+		2D7346CF22B388970046B24F /* SVideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SVideoViewController.swift; sourceTree = "<group>"; };
+		2D83D1EA22B11D6D00E816A5 /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		2DD25CFD22B12BEC005E07C5 /* SkogenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkogenViewController.swift; sourceTree = "<group>"; };
+		2DD25CFF22B2462A005E07C5 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		2DD25D0022B2462A005E07C5 /* SlideInTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideInTransition.swift; sourceTree = "<group>"; };
+		3B79CDEA2A530B6E56CE0CAC /* Pods_smidigApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_smidigApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69C293B409DC2647926C2EC4 /* Pods-smidigAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-smidigAppUITests.release.xcconfig"; path = "Target Support Files/Pods-smidigAppUITests/Pods-smidigAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7BC15A8EB1F7DC7B5FC4F79D /* Pods_smidigAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_smidigAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A16796E1F311E23C04A3B6C1 /* Pods-smidigAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-smidigAppTests.release.xcconfig"; path = "Target Support Files/Pods-smidigAppTests/Pods-smidigAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		A6A8F7A76741270479FFAF3B /* Pods-smidigAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-smidigAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-smidigAppUITests/Pods-smidigAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CE30E62AB447072A518A0779 /* Pods_smidigAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_smidigAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E924AB54EDAA24F8CF8DE0BE /* Pods-smidigApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-smidigApp.debug.xcconfig"; path = "Target Support Files/Pods-smidigApp/Pods-smidigApp.debug.xcconfig"; sourceTree = "<group>"; };
+		F384FC71AC6C49E89ED40158 /* Pods-smidigAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-smidigAppTests.debug.xcconfig"; path = "Target Support Files/Pods-smidigAppTests/Pods-smidigAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6A4D130E062B84393CDD472 /* Pods_smidigApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0EB2381367ADD6E489E8D5E /* Pods_smidigAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06D67E90CA8C39A00842DAB5 /* Pods_smidigAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +114,8 @@
 				2D41794B2292BB7F0099599E /* smidigAppTests */,
 				2D4179562292BB7F0099599E /* smidigAppUITests */,
 				2D4179352292BB7E0099599E /* Products */,
+				D5DAFAA5D2C40332107564D5 /* Pods */,
+				EBE713F4A65FEBB92B3AE32D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,11 +132,11 @@
 		2D4179362292BB7E0099599E /* smidigApp */ = {
 			isa = PBXGroup;
 			children = (
-				2D4179372292BB7E0099599E /* AppDelegate.swift */,
-				2D4179392292BB7E0099599E /* ViewController.swift */,
-				2D41793B2292BB7E0099599E /* Main.storyboard */,
+				2D7346C822B2F3950046B24F /* Storyboards */,
+				2D7346C722B2F3450046B24F /* Animations */,
+				2D7346C622B2F3320046B24F /* Delegates */,
+				2D7346C422B2F2F70046B24F /* Views */,
 				2D41793E2292BB7F0099599E /* Assets.xcassets */,
-				2D4179402292BB7F0099599E /* LaunchScreen.storyboard */,
 				2D4179432292BB7F0099599E /* Info.plist */,
 			);
 			path = smidigApp;
@@ -125,6 +160,70 @@
 			path = smidigAppUITests;
 			sourceTree = "<group>";
 		};
+		2D7346C422B2F2F70046B24F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2D239B7B22AEE55600291018 /* NavController.swift */,
+				2D83D1EA22B11D6D00E816A5 /* VideoViewController.swift */,
+				2DD25CFD22B12BEC005E07C5 /* SkogenViewController.swift */,
+				2D4179392292BB7E0099599E /* ViewController.swift */,
+				2DD25CFF22B2462A005E07C5 /* MenuViewController.swift */,
+				2D7346C922B3869F0046B24F /* HyttaViewController.swift */,
+				2D7346CB22B386C20046B24F /* FjelletViewController.swift */,
+				2D7346CD22B388890046B24F /* HVideoViewController.swift */,
+				2D7346CF22B388970046B24F /* SVideoViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2D7346C622B2F3320046B24F /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				2D4179372292BB7E0099599E /* AppDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		2D7346C722B2F3450046B24F /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				2DD25D0022B2462A005E07C5 /* SlideInTransition.swift */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		2D7346C822B2F3950046B24F /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				2D4179402292BB7F0099599E /* LaunchScreen.storyboard */,
+				2D41793B2292BB7E0099599E /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		D5DAFAA5D2C40332107564D5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E924AB54EDAA24F8CF8DE0BE /* Pods-smidigApp.debug.xcconfig */,
+				0D0C0066C2A21CBDFA53DE59 /* Pods-smidigApp.release.xcconfig */,
+				F384FC71AC6C49E89ED40158 /* Pods-smidigAppTests.debug.xcconfig */,
+				A16796E1F311E23C04A3B6C1 /* Pods-smidigAppTests.release.xcconfig */,
+				A6A8F7A76741270479FFAF3B /* Pods-smidigAppUITests.debug.xcconfig */,
+				69C293B409DC2647926C2EC4 /* Pods-smidigAppUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EBE713F4A65FEBB92B3AE32D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B79CDEA2A530B6E56CE0CAC /* Pods_smidigApp.framework */,
+				7BC15A8EB1F7DC7B5FC4F79D /* Pods_smidigAppTests.framework */,
+				CE30E62AB447072A518A0779 /* Pods_smidigAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +231,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D41795C2292BB800099599E /* Build configuration list for PBXNativeTarget "smidigApp" */;
 			buildPhases = (
+				4AD64D12A7A1F6FF8C76B300 /* [CP] Check Pods Manifest.lock */,
 				2D4179302292BB7E0099599E /* Sources */,
 				2D4179312292BB7E0099599E /* Frameworks */,
 				2D4179322292BB7E0099599E /* Resources */,
+				903E47CA22CB2A34F95AC7B3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +250,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D41795F2292BB800099599E /* Build configuration list for PBXNativeTarget "smidigAppTests" */;
 			buildPhases = (
+				20C92ACD5151269FABDFDD25 /* [CP] Check Pods Manifest.lock */,
 				2D4179442292BB7F0099599E /* Sources */,
 				2D4179452292BB7F0099599E /* Frameworks */,
 				2D4179462292BB7F0099599E /* Resources */,
@@ -167,6 +269,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D4179622292BB800099599E /* Build configuration list for PBXNativeTarget "smidigAppUITests" */;
 			buildPhases = (
+				7F85C3B1C9EA0B7F4DFA8180 /* [CP] Check Pods Manifest.lock */,
 				2D41794F2292BB7F0099599E /* Sources */,
 				2D4179502292BB7F0099599E /* Frameworks */,
 				2D4179512292BB7F0099599E /* Resources */,
@@ -251,13 +354,113 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		20C92ACD5151269FABDFDD25 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-smidigAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4AD64D12A7A1F6FF8C76B300 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-smidigApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F85C3B1C9EA0B7F4DFA8180 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-smidigAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		903E47CA22CB2A34F95AC7B3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-smidigApp/Pods-smidigApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/YoutubePlayer-in-WKWebView/YoutubePlayer_in_WKWebView.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YoutubePlayer_in_WKWebView.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-smidigApp/Pods-smidigApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2D4179302292BB7E0099599E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				2D41793A2292BB7E0099599E /* ViewController.swift in Sources */,
+				2DD25D0122B2462B005E07C5 /* MenuViewController.swift in Sources */,
 				2D4179382292BB7E0099599E /* AppDelegate.swift in Sources */,
+				2D7346CC22B386C20046B24F /* FjelletViewController.swift in Sources */,
+				2D7346D022B388970046B24F /* SVideoViewController.swift in Sources */,
+				2D83D1EB22B11D6D00E816A5 /* VideoViewController.swift in Sources */,
+				2D7346CE22B388890046B24F /* HVideoViewController.swift in Sources */,
+				2DD25D0222B2462B005E07C5 /* SlideInTransition.swift in Sources */,
+				2D7346CA22B3869F0046B24F /* HyttaViewController.swift in Sources */,
+				2D239B7C22AEE55600291018 /* NavController.swift in Sources */,
+				2DD25CFE22B12BEC005E07C5 /* SkogenViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +633,7 @@
 		};
 		2D41795D2292BB800099599E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E924AB54EDAA24F8CF8DE0BE /* Pods-smidigApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +652,7 @@
 		};
 		2D41795E2292BB800099599E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D0C0066C2A21CBDFA53DE59 /* Pods-smidigApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +671,7 @@
 		};
 		2D4179602292BB800099599E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F384FC71AC6C49E89ED40158 /* Pods-smidigAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +693,7 @@
 		};
 		2D4179612292BB800099599E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A16796E1F311E23C04A3B6C1 /* Pods-smidigAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +715,7 @@
 		};
 		2D4179632292BB800099599E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6A8F7A76741270479FFAF3B /* Pods-smidigAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +736,7 @@
 		};
 		2D4179642292BB800099599E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69C293B409DC2647926C2EC4 /* Pods-smidigAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
